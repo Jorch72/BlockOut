@@ -64,6 +64,7 @@ public class List extends AbstractChildrenContainingUIElement implements IScroll
     //Bindable resource binding.
     private IDependencyObject<ResourceLocation>             templateResource;
     private IDependencyObject<IBlockOutGuiConstructionData> templateConstructionData;
+
     public static final class ListConstructionDataBuilder extends AbstractChildrenContainingUIElement.SimpleControlConstructionDataBuilder<ListConstructionDataBuilder, List>
     {
 
